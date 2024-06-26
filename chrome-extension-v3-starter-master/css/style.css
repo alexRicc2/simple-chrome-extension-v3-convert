@@ -1,0 +1,14 @@
+.element-injected{
+  position: fixed;
+  width: 100px;
+  height: 100px;
+  top: 30vh;
+  left: 50%;
+  display: block;
+  z-index: 100;
+  background-color: red;
+}
+.clicked {
+  left: calc(50% - 100px);
+  background-color: #00ff0020;
+}
